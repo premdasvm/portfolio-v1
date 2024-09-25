@@ -1,6 +1,6 @@
 <template>
 	<div class="flex flex-col items-center gap-2 duration-1000 animate-in fade-in zoom-in">
-		<h1 class="text-4xl font-bold text-white">Premdas</h1>
+		<TextShine text="Premdas" class="text-6xl font-bold" />
 		<div class="flex gap-2">
 			<a v-for="link in links" :key="link.name" :href="link.href" target="_blank">
 				<Icon :name="link.icon" size="2rem" />
