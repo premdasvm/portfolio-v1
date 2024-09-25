@@ -1,43 +1,12 @@
-## Nuxt 3 Starter
+**[premdasvm.dev](https://premdasvm.dev)**
 
-## Starting a new project
+my personal website
 
-The easiest way to use this repository is to [degit](https://github.com/Rich-Harris/degit) it:
+<br>
 
-```bash
-npx degit https://github.com/premdasvm/nuxt-starter.git <project-name>
-```
+## Tech Stack
 
-### Setup
-
-Make sure to install the dependencies:
-
-```bash
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# pnpm
-pnpm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# pnpm
-pnpm run build
-```
-
-Locally preview production build:
-
-```bash
-# pnpm
-pnpm run preview
-```
+-   [Nuxt 3](https://nuxt.com/)
+-   [TailwindCSS](https://tailwindcss.com/)
+-   [Nuxt Icon](https://nuxt.com/modules/icon)
+-   [Nuxt Hub](https://hub.nuxt.com/)
