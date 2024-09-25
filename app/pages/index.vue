@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-col items-center gap-2">
+	<div class="flex flex-col items-center gap-2 duration-500 animate-in fade-in zoom-in">
 		<h1 class="text-4xl font-bold text-white">Premdas</h1>
 		<div class="flex gap-2">
 			<a v-for="link in links" :key="link.name" :href="link.href" target="_blank">
