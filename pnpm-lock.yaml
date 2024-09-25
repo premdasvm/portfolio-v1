@@ -66,6 +66,9 @@ importers:
       husky:
         specifier: ^9.1.6
         version: 9.1.6
+      p5i:
+        specifier: ^0.5.0
+        version: 0.5.0
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -1230,6 +1233,9 @@ packages:
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
+
+  '@types/p5@1.7.6':
+    resolution: {integrity: sha512-6pLTOo0V3N5jZb5nTwjiv3lPHLK3Z/TjbhQUj8CTWXocUk1Z/f6OHTp3Pcwi1BhWnf5gqKUcyEb1gP0KIJuQgw==}
 
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
@@ -3252,6 +3258,12 @@ packages:
   p-try@2.2.0:
     resolution: {integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==}
     engines: {node: '>=6'}
+
+  p5@1.10.0:
+    resolution: {integrity: sha512-6cWYBFhnZz7jNC6p1VWvlt3QReMqrRSmO90bgECQIKB9oko2w/sKrOAVMyei5tjIzSYcSY0JHy+BRtSAWq24jQ==}
+
+  p5i@0.5.0:
+    resolution: {integrity: sha512-ahLCSoab5pD6fCpqxLcXhDPyDIrJHQpeGDeC4RDouflWJuXi0LVsGjbwS/ODLkpXRfLTHzV6C9t32kz3iMuPBA==}
 
   package-json-from-dist@1.0.0:
     resolution: {integrity: sha512-dATvCeZN/8wQsGywez1mzHtTlP22H8OEfPrVMLNr4/eGa+ijtLn/6M5f0dY8UKNrC2O9UCU6SSoG3qRKnt7STw==}
@@ -5855,6 +5867,8 @@ snapshots:
 
   '@types/normalize-package-data@2.4.4': {}
 
+  '@types/p5@1.7.6': {}
+
   '@types/resolve@1.20.2': {}
 
   '@types/web-bluetooth@0.0.20': {}
@@ -8311,6 +8325,13 @@ snapshots:
       p-limit: 4.0.0
 
   p-try@2.2.0: {}
+
+  p5@1.10.0: {}
+
+  p5i@0.5.0:
+    dependencies:
+      '@types/p5': 1.7.6
+      p5: 1.10.0
 
   package-json-from-dist@1.0.0: {}
 

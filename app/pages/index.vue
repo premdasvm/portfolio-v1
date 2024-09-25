@@ -3,7 +3,7 @@
 		<TextShine text="Premdas" class="text-6xl font-bold" />
 		<div class="flex gap-2">
 			<a v-for="link in links" :key="link.name" :href="link.href" target="_blank">
-				<Icon :name="link.icon" size="2rem" />
+				<Icon :name="link.icon" size="2rem" class="bg-[#939393]" />
 			</a>
 		</div>
 	</div>
