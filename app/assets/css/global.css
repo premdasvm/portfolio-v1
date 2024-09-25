@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--foreground: 0, 0%, 0%;
+	--background: 0, 0%, 100%;
+}
+
+.dark {
+	--foreground: 0, 0%, 100%;
+	--background: 0, 0%, 0%;
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+	body {
+		@apply bg-background text-foreground;
+	}
+}

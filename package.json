@@ -1,0 +1,52 @@
+{
+	"name": "nuxt-app",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"format": "prettier . --write",
+		"typecheck": "vue-tsc --noEmit",
+		"prepare": "husky"
+	},
+	"dependencies": {
+		"nuxt": "^3.13.2",
+		"vue": "latest",
+		"vue-router": "^4.4.5"
+	},
+	"devDependencies": {
+		"@nuxt/eslint": "^0.5.7",
+		"@nuxt/fonts": "^0.8.0",
+		"@nuxt/icon": "^1.5.1",
+		"@nuxtjs/color-mode": "^3.5.1",
+		"@nuxtjs/tailwindcss": "^6.12.1",
+		"@tailwindcss/aspect-ratio": "^0.4.2",
+		"@tailwindcss/container-queries": "^0.1.1",
+		"@tailwindcss/forms": "^0.5.9",
+		"@tailwindcss/typography": "^0.5.15",
+		"@vueuse/core": "^11.1.0",
+		"@vueuse/nuxt": "^11.1.0",
+		"eslint": "^9.11.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"husky": "^9.1.6",
+		"prettier": "^3.3.3",
+		"prettier-plugin-tailwindcss": "^0.6.6",
+		"tailwindcss": "^3.4.13",
+		"tailwindcss-animate": "^1.0.7",
+		"typescript": "^5.6.2",
+		"vue-tsc": "^2.1.6"
+	},
+	"lint-staged": {
+		"*.{js,ts,vue}": [
+			"eslint --fix",
+			"prettier --write"
+		],
+		"*.{md,json}": "prettier --write"
+	}
+}
